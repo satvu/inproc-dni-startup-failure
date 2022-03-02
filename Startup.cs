@@ -1,12 +1,12 @@
 ﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using StartupLogInvestigationApp;
+using InprocDniStartupFailure;
 using System.Reflection;
 using System;
 
 [assembly: FunctionsStartup(typeof(Startup))]
-namespace StartupLogInvestigationApp
+namespace InprocDniStartupFailure
 {
     public class Startup : FunctionsStartup
     {
